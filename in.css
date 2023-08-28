@@ -1,0 +1,67 @@
+body {
+    background: url("./img/love1.jpg") no-repeat center /center;   
+    background-color: rgb(240, 213, 179);
+}
+p {
+    font-size: 20px;
+    color: rgb(80, 20, 30);
+}
+h1 {
+    font-family: tahoma;
+    text-align: center;
+    color: rgb(100, 14, 14);
+}
+
+input {
+    margin-top: 30px;
+    color: rgb(241, 84, 84);
+    font-size: 20px;
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    border-top: 2px;
+}
+button {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    margin-left: 70px;
+    background-color: red;
+   color: pink;
+   font-size: 20px;
+   border-radius: 7px;
+}
+input:hover {
+   color: rgb(226, 13, 13);
+   background-color: pink;
+   font-size: 23px;
+   height: 50px; 
+}
+button:hover {
+    border-radius: 10px;
+    background-color: rgb(112, 13, 13);
+    width: 150px;
+    margin-left: 100px;
+}
+
+@media (min-width: 750px) {
+    body {
+        text-align: center;
+    }
+    input {
+        width: 450px;
+    }
+    .all {
+        border: 0px solid red;
+        border-radius: 00px;
+    }
+    .inner {
+        border: 5px solid red;
+        margin-left: 350px;
+        margin-right: 350px;
+        border-top: none;
+        border-bottom: none;
+        height: 400px;
+       border-radius: 10px;
+    }
+}
