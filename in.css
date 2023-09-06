@@ -55,13 +55,4 @@ button:hover {
         border: 0px solid red;
         border-radius: 00px;
     }
-    .inner {
-        border: 5px solid red;
-        margin-left: 350px;
-        margin-right: 350px;
-        border-top: none;
-        border-bottom: none;
-        height: 400px;
-       border-radius: 10px;
-    }
 }
